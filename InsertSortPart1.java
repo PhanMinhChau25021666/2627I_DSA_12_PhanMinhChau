@@ -21,8 +21,7 @@ class InsertSortPart1 {
                 System.out.print(x + " ");
                }
                System.out.println();
-            } 
-            if (store >= arr.get(i-1)) {
+            } else {
                 arr.set(i, store);
                 for (int x : arr){
                 System.out.print(x + " ");
